@@ -15,6 +15,8 @@ export const Error = ({ error }) => {
           <Typography>Uruchom Server!</Typography>
         ) : null //  TODO in TASK 1
       }
+      <img src={require('../../assets/unknown_error.png')}  alt='Wystąpił nieoczekiwany błąd'/>
+      <Typography>Wystąpił nieoczekiwany błąd.</Typography>
     </Box>
   );
 };
